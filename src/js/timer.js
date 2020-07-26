@@ -102,5 +102,5 @@ function timerInplement() {
   minsRef.textContent = String(mins).padStart(2, '0');
   secsRef.textContent = String(secs).padStart(2, '0');
 }
-
+timerInplement();
 const runTimer = setInterval(timerInplement, 1000);
